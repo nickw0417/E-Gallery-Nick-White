@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+
+      background-image: url("assets/net_art.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .content-box {
+      background-color: black;
+      padding: 40px 60px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+    }
+
+    h1 {
+      margin: 0 0 15px 0;
+      font-size: 3rem;
+    }
+
+    p {
+      margin: 0 0 25px 0;
+      font-size: 1.2rem;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .nav-button {
+      display: inline-block;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      padding: 15px 30px;
+      border: 2px solid white;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: background-color 0.3s ease,
+                  color 0.3s ease;
+    }
+
+    .nav-button:hover {
+      background-color: white;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content-box">
+    <h1>Welcome!</h1>
+    <p>This is a basic HTML starter page.</p>
+
+    <div class="button-container">
+      <a href="index2.html" class="nav-button">About</a>
+      <a href="index3.html" class="nav-button">Gallery</a>
+      <a href="index4.html" class="nav-button">Press</a>
+    </div>
+
+  </div>
+</body>
+</html>
